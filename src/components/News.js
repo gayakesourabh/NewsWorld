@@ -56,7 +56,7 @@ export default class News extends Component {
   render() {
     return (
         <div className='container'>
-            <p className='h1' style={{textAlign:'center',marginTop:'90px', marginBottom:'25px'}}>{this.props.title}</p>
+            <p className='h1' style={{textAlign:'center',marginTop:'90px', marginBottom:'25px', fontFamily:'New Tegomin'}}>{this.props.title}</p>
 
             <div className="row">
             {this.state.articles?.map((element) =>{
